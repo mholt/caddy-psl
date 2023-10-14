@@ -178,6 +178,8 @@ func icannSuffix(domain string) string {
 			if !ok {
 				return ""
 			}
+		} else {
+			return ""
 		}
 	}
 }
