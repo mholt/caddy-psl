@@ -5,6 +5,9 @@ This module is an HTTP handler that creates placeholders based on the [Public Su
 
 :warning: This module is experimental and subject to change.
 
+> [!NOTE]
+> This is not an official repository of the [Caddy Web Server](https://github.com/caddyserver) organization.
+
 Placeholders are created with these possible input prefixes:
 
 - **`qs.*`** gets a value from the query string with the named key, e.g. for a query string `?foo=example.com`,
